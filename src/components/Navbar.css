@@ -1,0 +1,19 @@
+.color-palette-container {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+  }
+  
+  .color-palette-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;  /* Optional, for a white border */
+    transition: transform 0.2s;
+  }
+  
+  .color-palette-circle:hover {
+    transform: scale(1.1);  /* Slightly increase size on hover */
+  }
+  
